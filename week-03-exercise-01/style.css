@@ -1,0 +1,24 @@
+{ box-sizing: border-box; }
+body{
+    background-color: #e0c7d4 ;
+    font-family: fantasy;
+}
+.card{
+    max-width: 600px;
+    margin: 0;
+    padding: 27px;
+    background-color: rgb(171, 255, 255);
+    border: 4px rgb(28, 3, 43);
+    border-style: dotted;
+}
+p {
+    color:#5aaaca ;
+    font-size: medium;
+    margin: 2cap;
+}
+h1 {
+    color:#240b35 ;
+    font-size: xx-large;
+    margin: 2cap;
+    
+}
