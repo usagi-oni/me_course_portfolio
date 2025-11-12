@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: cursive;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0;
+    color: #8b6cfa;
+    background-color: rgb(218, 183, 241);
+}
+
+main {
+    max-width: 1200px;
+    width: 90%;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1em;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+main>p {
+    margin-bottom: 32px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collection-grid {
+    margin: 48px 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+}
+
+.collection-card {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #f19cc4;
+    padding: 16px;
+    width: 500px; 
+    display: flex
+    flex-grow: 400px;
+   flex-shrink: 400px;
+}
+
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid rgb(10, 4, 10);
+    margin-bottom: 16px;
+}
+
+.collection-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.collection-card .details {
+    font-size: 14px;
+    color: rgb(125, 198, 240);
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.collection-card .description {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (width >= 480px) { 
+    .collection-card {
+    flex-basis: 40%;
+    }
+}
+    
+@media (width >= 1024px) { 
+    .collection-card {
+    flex-basis: 30%;
+    }
+}
