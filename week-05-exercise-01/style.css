@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 2;
+    background-color: #fafafa;
+    color: #1F2937;
+    padding: 32px 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.button-section {
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button-section p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.button-01 {
+    background-color: #0066CC;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0066CC;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-01:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+
+.button-02 {
+    background-color: #0e6027;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #0e6027;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-02:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button-03 {
+  background: linear-gradient(to left, rgb(103, 228, 211) 50%, rgba(155, 86, 219, 0.671) 50%);
+  background-size: 200% 100%;
+  padding: 16px 32px;
+  border: 2px;
+ transition: 1s ease;
+}
+
+.button-03:hover {
+    background-position: -100% 0;
+}
+.button-04 {
+    background-color: rgb(255, 13, 126);
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out
+}
+
+.button-04:hover {
+    transform: scale(4);
+}
+
+.button-05 {
+    background-color: pink;
+    position: relative;
+    padding: 16px 32px;
+    border: 2px;
+    left: 0;
+    transition: left 0.3 ease;
+}
+
+.button-05:hover {
+    left: 50px;
+}
+
+.button-06 {
+    background-color: #114875;
+    padding: 16px 32px;
+    border: 2px;
+    transition: 
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+
+}
+
+.button-06:hover {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    rotate: 180deg;
+}
