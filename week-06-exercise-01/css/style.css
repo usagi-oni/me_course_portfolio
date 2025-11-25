@@ -170,7 +170,7 @@ code {
 .nav-centered ul {
   list-style: none;
   margin: 0;
-  padding: 250px;
+  padding: 0;
 }
 .nav-centered li {
   margin-bottom: 8px;
