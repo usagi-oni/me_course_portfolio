@@ -169,8 +169,8 @@ code {
 }
 .nav-centered ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 8px;
+  padding: 250px;
 }
 .nav-centered li {
   margin-bottom: 8px;
