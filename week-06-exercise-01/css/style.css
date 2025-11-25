@@ -176,7 +176,7 @@ code {
   margin-bottom: 16px;
 }
 .nav-centered a {
-  display: contents;
+  display: content;
   padding: 10px 20px;
   color: white;
   text-decoration: none;
