@@ -160,3 +160,17 @@ code {
 @media (width >=480px) {}
 
 @media (width >=1024px) {}
+
+.nav-centered {
+  justify-content: center;
+  justify-content: space-between;
+  background-color: pink;
+  border: 1px dashed rgb(19, 138, 168);
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  display: block;
+  color:#111111
+
+}
