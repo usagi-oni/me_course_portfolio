@@ -173,7 +173,7 @@ code {
   padding: 0;
 }
 .nav-centered li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .nav-centered a {
   display: grid;
