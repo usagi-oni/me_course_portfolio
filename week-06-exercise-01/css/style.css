@@ -162,15 +162,33 @@ code {
 @media (width >=1024px) {}
 
 .nav-centered {
-  justify-content: center;
-  justify-content: space-between;
-  background-color: pink;
-  border: 1px dashed rgb(19, 138, 168);
-  list-style-type: circle;
+  position: fixed;
+  left: 32px;
+  top: 32px;
+  width: 200px;
+}
+.nav-centered ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  display: block;
-  color:#111111
+}
+.nav-centered li {
+  margin-bottom: 8px;
+}
+.nav-centered a {
+  display: grid;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: wavy;
+  background-color: rgb(92, 9, 9);
+  border: #111111;
+  transition: background-color 0.5s ease, 0.5s ease;
+}
+.nav-centered a:hover {
+  background-color: rgb(92, 9, 9);
+  color: white;
+}
 
+.nav-centered+main {
+  margin-left: 232px;
 }
