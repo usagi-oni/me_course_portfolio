@@ -67,9 +67,9 @@ h1 {
 
 .horizontal a {
     display: block;
-    padding: 20px 0;
+    padding: 10px 8px;
     color: black;
-    text-decoration: wavy;
+    text-decoration: none;
     transition: background-color 0.7s ease, 0.7 ease;
 }
 
