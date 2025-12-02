@@ -8,9 +8,9 @@ body {
   font-size: 16px;
   line-height: 3;
   color: #ffffff;
-  background-color: #155472;
-  display: flex;
-  justify-content: space-around;
+  background-color: #d69fd3;
+  display: flexbox;
+  justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
   padding: 32px 0;
