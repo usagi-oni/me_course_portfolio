@@ -76,3 +76,7 @@ h1 {
 .horizontal a :hover {
     color: rgb(54, 0, 99);
 }
+
+.horizontal+main {
+    margin-top: 85px;
+}
