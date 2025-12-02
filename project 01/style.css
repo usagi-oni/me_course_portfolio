@@ -7,7 +7,7 @@ body {
  font-family: system-ui;
   font-size: 16px;
   line-height: 3;
-  color: #ffffff;
+  color: #020202;
   background-color: #e4bee2;
   display: flexbox;
   justify-content: center;
@@ -38,6 +38,6 @@ h1 {
 }
 
 .skill-card {
-    background-color: antiquewhite;
+    background-color: rgb(245, 237, 227);
     border: 1px dotted rgb(189, 55, 133);
 }
