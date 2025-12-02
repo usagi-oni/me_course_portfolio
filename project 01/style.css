@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 3;
   color: #ffffff;
-  background-color: #d69fd3;
+  background-color: #e4bee2;
   display: flexbox;
   justify-content: center;
   align-items: flex-start;
@@ -35,4 +35,9 @@ h1 {
     margin-top: 48px;
     margin-bottom: 48px;
     text-align: center;
+}
+
+.style-card {
+    background-color: antiquewhite;
+    border: 1px dotted rgb(189, 55, 133);
 }
