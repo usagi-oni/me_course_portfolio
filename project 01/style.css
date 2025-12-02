@@ -51,12 +51,12 @@ h1 {
 }
 
 .horizontal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #333333;
-  padding: 0 32px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+    position: static;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    background-color: rgb(245, 237, 227);
+    padding: 0 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
