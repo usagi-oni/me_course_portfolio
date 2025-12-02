@@ -10,7 +10,7 @@ body {
   color: #ffffff;
   background-color: #155472;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   min-height: 100vh;
   padding: 32px 0;
