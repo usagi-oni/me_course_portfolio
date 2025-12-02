@@ -41,3 +41,10 @@ h1 {
     background-color: rgb(245, 237, 227);
     border: 1px dotted rgb(189, 55, 133);
 }
+
+.horizontal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
