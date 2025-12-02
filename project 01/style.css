@@ -58,7 +58,7 @@ h1 {
     background-color: rgb(245, 237, 227);
     padding: 0 32px;
     box-shadow: 0 2px 4px rgba(205, 17, 252, 0.39);
-    z-index: 800;
+    z-index: 1500;
 }
 
 .horizontal li {
@@ -73,7 +73,7 @@ h1 {
     transition: color 0.3s ease;
 }
 
-.horizontal a :hover {
+.horizontal a:hover {
     color: rgb(54, 0, 99);
 }
 
