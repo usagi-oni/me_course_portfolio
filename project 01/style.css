@@ -52,7 +52,7 @@ h1 {
 
 .horizontal {
     position: sticky;
-    top: 20px;
+    top: 0px;
     left: 3px;
     right: 3px;
     width: fit-content;
