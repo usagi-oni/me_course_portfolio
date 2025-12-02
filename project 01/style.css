@@ -4,7 +4,7 @@
 
 html,
 body {
-  font-family: "Blippo", fantasy;
+  font-family: system-ui;
   font-size: 16px;
   line-height: 3;
   color: #ffffff;
@@ -24,7 +24,6 @@ main {
 
 header {
     align-items: center;
-
 }
 
 h1 {
