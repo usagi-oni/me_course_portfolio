@@ -61,6 +61,15 @@ h1 {
     z-index: 1000;
 }
 
-.horizontal {
+.horizontal li {
     margin-bottom: 0 ;
+}
+
+.horizontal a {
+    display: block;
+    padding: 20px 0;
+    color: black;
+    text-decoration: wavy;
+    transition: color 0.3s ease;
+
 }
