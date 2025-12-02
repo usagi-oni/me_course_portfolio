@@ -70,12 +70,12 @@ h1 {
     padding: 20px 0;
     color: black;
     text-decoration: wavy;
-    transition: background-color color 0.3s ease, 0.3 ease;
+    transition: background-color color 0.7s ease, 0.7 ease;
 }
 
 .horizontal a:hover {
     color: rgb(54, 0, 99);
-    background-color: #915a8e;
+    background-color: #1d0053;
 }
 
 .horizontal+main {
