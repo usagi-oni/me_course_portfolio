@@ -24,6 +24,7 @@ header {
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: 48px;
     line-height: 1em;
