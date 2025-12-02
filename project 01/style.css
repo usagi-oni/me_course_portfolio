@@ -4,7 +4,7 @@
 
 html,
 body {
-    font-family: Arial;
+    font-family: fantasy;
     line-height: 5;
     display: flex;
     justify-content: center;
@@ -16,4 +16,9 @@ main {
     max-width: 1200px;
     width: 90%;
     padding: 16px;
+}
+
+header {
+    align-items: center;
+
 }
