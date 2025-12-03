@@ -35,7 +35,7 @@ header {
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 50px;
     line-height: 1em;
     margin-top: 48px;
     margin-bottom: 48px;
@@ -45,7 +45,7 @@ h1 {
 h2 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: large;
-    font-size: medium;
+    font-size: 20px;
 }
 
 p {
