@@ -84,8 +84,8 @@ p {
 }
 
 .horizontal a {
-    display: table;
-    padding: 0;
+    display: block;
+    padding: 10px 8px;
     color: black;
     background-color: rgb(245, 237, 227);
     text-decoration: none;
