@@ -19,13 +19,12 @@ body {
 
 main {
     max-width: 1200px;
-    width: 120%;
+    width: 90%;
     padding: 16px;
 }
 
 header {
     align-items: center;
-    font-weight: bolder;
 }
 
 .name-card {
@@ -35,12 +34,25 @@ header {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
+    font-weight: bolder;
     font-size: 48px;
     line-height: 1em;
     margin-top: 48px;
     margin-bottom: 48px;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: medium;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    line-height: 32px;
 }
 
 .skill-card {
