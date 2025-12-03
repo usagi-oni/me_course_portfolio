@@ -85,7 +85,7 @@ p {
 
 .horizontal a {
     display: block;
-    padding: 10px 0px;
+    padding: 0;
     color: black;
     background-color: rgb(245, 237, 227);
     text-decoration: none;
