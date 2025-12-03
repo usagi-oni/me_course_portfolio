@@ -25,6 +25,8 @@ main {
 
 header {
     align-items: center;
+    background-color: (245, 237, 227);
+    border: 10px dotted ( 189, 55, 133);
 }
 
 h1 {
@@ -40,7 +42,6 @@ h1 {
 .skill-card {
     background-color: rgb(245, 237, 227);
     border: 1px dotted rgb(189, 55, 133);
-    box-shadow: #b905e6;
 }
 
 .horizontal ul {
