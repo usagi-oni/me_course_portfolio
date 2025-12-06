@@ -101,3 +101,13 @@ p {
 .horizontal+main {
     margin-top: 0;
 }
+
+.project-grid {
+   margin: 48px 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+}
