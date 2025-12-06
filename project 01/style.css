@@ -111,3 +111,13 @@ p {
    flex-wrap: wrap;
    flex-flow: row wrap;
 }
+
+.project-card {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #f19cc4;
+    padding: 16px;
+    width: 500px; 
+    display: flex
+    flex-grow: 400px;
+   flex-shrink: 400px;
+}
