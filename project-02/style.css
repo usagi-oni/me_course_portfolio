@@ -4,7 +4,7 @@ body {
     line-height: 35px;
     color: #020202;
     background-color: #f1def1;
-    display: block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     min-height: 150px;
