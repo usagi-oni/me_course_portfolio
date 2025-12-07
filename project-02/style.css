@@ -21,3 +21,16 @@ body {
     text-decoration: none;
     color: rgb(109, 24, 24);
 }
+
+
+@media (width >= 480px) { 
+    body{
+    flex-basis: 40%;
+    }
+}
+    
+@media (width >= 1024px) { 
+    body{
+    flex-basis: 30%;
+    }
+}

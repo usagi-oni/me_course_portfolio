@@ -122,3 +122,15 @@ p {
     flex-grow: 400px;
    flex-shrink: 400px;
 }
+
+@media (width >= 480px) { 
+    body {
+    flex-basis: 40%;
+    }
+}
+    
+@media (width >= 1024px) { 
+    body {
+    flex-basis: 30%;
+    }
+}
