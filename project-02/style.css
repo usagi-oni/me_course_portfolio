@@ -1,0 +1,23 @@
+body {
+
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.middle li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.middle a {
+    text-decoration: none;
+    color: rgb(109, 24, 24);
+}
