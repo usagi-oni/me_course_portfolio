@@ -58,14 +58,19 @@ li {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 1000;
     text-align: center;
 }
 
 h2 {    
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 58px;
+    text-align: center;
+    margin:auto;
 }
 
 img {
