@@ -23,7 +23,7 @@ body {
 }
 
 .middle li {
-    display: block;
+    display: inline-flex;
     margin: 0 10px;
 }
 
